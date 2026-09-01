@@ -62,12 +62,7 @@ function App() {
                 } />
            
            
-                {/* Payment Route */}
-                {/* <Route path="/payment/:auctionId" element={
-                  <AuthGuard>
-                    <PaymentPage />
-                  </AuthGuard>
-                } /> */}
+
 
                 <Route path="/payment/success" element={
                   <AuthGuard>
