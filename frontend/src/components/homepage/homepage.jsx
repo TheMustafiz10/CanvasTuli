@@ -4,7 +4,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Footer from './Footer';
+import Footer from './footer';
 import './CSS/homepage.css';
 
 // Dummy artwork data with online images
