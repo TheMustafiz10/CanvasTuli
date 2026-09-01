@@ -7,7 +7,7 @@ import { ThemeProvider } from './context/ThemeContext';
 import { AuthProvider } from './context/AuthContext';
 import SocketProvider from './context/SocketContext'; 
 import Header from './components/homepage/header';
-import Homepage from './components/homepage/Homepage';
+import Homepage from './components/homepage/homepage';
 import AuctionPage from './components/auction/AuctionPage';
 import BiddingPage from './components/auction/BiddingPage';
 import ArtistDashboard from './components/artist/ArtistDashboard';
