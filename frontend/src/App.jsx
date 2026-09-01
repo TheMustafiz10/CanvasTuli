@@ -6,7 +6,7 @@ import { Toaster } from 'react-hot-toast';
 import { ThemeProvider } from './context/ThemeContext';
 import { AuthProvider } from './context/AuthContext';
 import SocketProvider from './context/SocketContext'; 
-import Header from './components/homepage/Header';
+import Header from './components/homepage/header';
 import Homepage from './components/homepage/Homepage';
 import AuctionPage from './components/auction/AuctionPage';
 import BiddingPage from './components/auction/BiddingPage';
@@ -20,8 +20,6 @@ import CartPage from './components/cart/CartPage';
 import PaymentPage from './components/payment/PaymentPage';
 import AdminDashboard from './components/admin/AdminDashboard';
 import LoginPage from './pages/LoginPage';
-// import LoginPage from './pages/LoginPage';
-// import RegisterPage from './pages/RegisterPage';
 import './App.css';
 
 function App() {
